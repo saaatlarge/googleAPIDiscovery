@@ -1,0 +1,9 @@
+curl https://discovery.googleapis.com/discovery/v1/apis
+
+curl "https://discovery.googleapis.com/discovery/v1/apis?preferred=true&name=drive"
+
+curl "https://discovery.googleapis.com/discovery/v1/apis?preferred=true&name=drive&fields=items(discoveryRestUrl)"
+ 
+
+curl "https://discovery.googleapis.com/discovery/v1/apis?preferred=true&name=androidenterprise"
+
